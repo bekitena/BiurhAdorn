@@ -13,10 +13,10 @@ This project aims to simplify communication between buyers and sellers by provid
 
 ## 🛠️ Tech Stack
 
+- Typescript
+- Tailwind
 - React
-- Vite
-- JavaScript
-- CSS3
+- Shadcn (optionally)
 
 ## 🚀 Installation
 

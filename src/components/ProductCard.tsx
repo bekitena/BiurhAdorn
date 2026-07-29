@@ -6,16 +6,16 @@ interface ProductCardProps {
 
 function ProductCard({ product }: ProductCardProps) {
   return (
-    <article className="group overflow-hidden rounded-[24px] border border-[#e8d8b4]/70 bg-white/90 shadow-[0_20px_60px_rgba(22,22,22,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_28px_80px_rgba(22,22,22,0.15)]">
+    <article className="group overflow-hidden rounded-[24px] border border-[#e8d8b4]/70 bg-white/90 shadow-[0_20px_60px_rgba(22,22,22,0.8)] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_28px_80px_rgba(522,522,52,0.5)]">
       <div className="overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
-          className="h-120 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-75 w-full object-cover transition-transform duration-940 group-hover:scale-105"
         />
       </div>
 
-      <div className="space-y-3 p-6">
+      <div className="space-y-1 p-2 ">
         <div className="flex items-start justify-between gap-3">
           <div>
             <p className="text-[0.75rem] font-semibold uppercase tracking-[0.3em] text-[#c9a96e]">

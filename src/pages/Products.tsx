@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import { products } from "../data/products";
 import type { ProductCategory } from "../types/product";
-import { link } from "fs";
+// import { link } from "fs";
 
 const categories: ProductCategory[] = ["All", "Necklaces", "Earrings", "Rings", "Bracelets"];
 
@@ -77,7 +77,7 @@ function Products() {
           </label>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3 xl:grid-cols-3">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

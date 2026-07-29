@@ -1,5 +1,6 @@
 # 💎 Biruh Adorn
 
+view on vercel https://biurh-adorn.vercel.app/
 A responsive website for Biruh Adorn, a locally handcrafted jewelry brand based in Bahir Dar, Ethiopia.
 
 This project aims to simplify communication between buyers and sellers by providing a modern online shopping experience.

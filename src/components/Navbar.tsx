@@ -32,7 +32,7 @@ function Navbar() {
           <li>
             <a
               className="group relative pb-1 text-[0.9rem] font-normal uppercase tracking-[2px] text-white/80 transition-all duration-300 hover:text-white"
-              href="#home"
+              href="/"
             >
               Home
               <span className="absolute bottom-0 left-1/2 h-[2px] w-0 bg-[#c9a96e] transition-all duration-300 group-hover:left-0 group-hover:w-full" />
@@ -41,7 +41,7 @@ function Navbar() {
           <li>
             <a
               className="group relative pb-1 text-[0.9rem] font-normal uppercase tracking-[2px] text-white/80 transition-all duration-300 hover:text-white"
-              href="#products"
+              href="products"
             >
               Collections
               <span className="absolute bottom-0 left-1/2 h-[2px] w-0 bg-[#c9a96e] transition-all duration-300 group-hover:left-0 group-hover:w-full" />
@@ -50,7 +50,7 @@ function Navbar() {
           <li>
             <a
               className="group relative pb-1 text-[0.9rem] font-normal uppercase tracking-[2px] text-white/80 transition-all duration-300 hover:text-white"
-              href="#about"
+              href="about"
             >
               About
               <span className="absolute bottom-0 left-1/2 h-[2px] w-0 bg-[#c9a96e] transition-all duration-300 group-hover:left-0 group-hover:w-full" />
@@ -59,7 +59,7 @@ function Navbar() {
           <li>
             <a
               className="group relative pb-1 text-[0.9rem] font-normal uppercase tracking-[2px] text-white/80 transition-all duration-300 hover:text-white"
-              href="#contact"
+              href="contact"
             >
               Contact
               <span className="absolute bottom-0 left-1/2 h-[2px] w-0 bg-[#c9a96e] transition-all duration-300 group-hover:left-0 group-hover:w-full" />

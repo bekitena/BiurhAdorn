@@ -1,11 +1,10 @@
 import necklace from "../assets/Necklace.jpg";
-import meskel from "../assets/Meskel.jpg";
-import biruh from "../assets/biruh.png";
+import meskel from "../assets/meskel.jpg";
 import type { Product } from "../types/product";
-import ring from "../assets/Ring.jpg";
-import bracelet from "../assets/Bracelet.jpg";
-import pendant from "../assets/Pendant.jpg";
-import hareg from "../assets/Hareg.jpg";
+import ring from "../assets/ring.jpg";
+import bracelet from "../assets/bracelet.jpg";
+import pendant from "../assets/pendant.jpg";
+import hareg from "../assets/hareg.jpg";
 
 export const products: Product[] = [
   {

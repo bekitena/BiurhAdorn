@@ -1,4 +1,4 @@
-import necklace from "../assets/Necklace.jpg";
+import necklace from "../assets/necklace.jpg";
 import meskel from "../assets/meskel.jpg";
 import type { Product } from "../types/product";
 import ring from "../assets/ring.jpg";

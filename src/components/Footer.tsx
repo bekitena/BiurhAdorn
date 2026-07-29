@@ -1,4 +1,4 @@
-function Footer(): JSX.Element | null {
+function Footer() {
   return null;
 }
 
